@@ -1,7 +1,6 @@
 # Custom Instructions for GitHub Copilot
 
-- Use camelCase for variable names.
 - Follow the project's existing code style and conventions.
 - Always include comments for complex logic.
-- Prefer using async/await for asynchronous operations.
-- Avoid using global variables.
+- Preserve users' code comment blocks; do not exclude them when refactoring code.
+- Pay especially close attention to the selection or exception context if provided.
